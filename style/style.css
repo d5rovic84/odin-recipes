@@ -1,8 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     color: darkgray;
     background-color: lightyellow;
+    border: 2px solid red;
+}
+
+header{
+    text-align: center;
 }
 
 img{
@@ -41,7 +54,16 @@ li, a, p{
     color: black;
 }
 
-.footer p{
+footer address{
+    text-align: center;
+    color: red;
+}
+
+address a{
+    color: green;
+}
+
+footer p{
     text-align: center;
     color: red;
 }
